@@ -18,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
     QVBoxLayout *layout = new QVBoxLayout;
     ui->centralwidget->setLayout(layout);
 
-    connect(ui->lineEdit, &QLineEdit::textChanged, this, &MainWindow::Search);
+//    connect(ui->lineEdit, &QLineEdit::textChanged, this, &MainWindow::Search);
 
 }
 
